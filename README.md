@@ -1,4 +1,4 @@
-# Laravel 7 Inspector 即時監測
+# Laravel 8 Inspector 即時監測
 
 引入 inspector-apm 的 inspector-laravel 套件來擴增實作在應用程式中新增即時監測和警報。
 
@@ -29,8 +29,8 @@ $ php artisan inspector:test
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/kKJEu2t.png)
+![](https://i.imgur.com/cvHhqkm.png)
 > 自動建立對應用程式處理（http 和後台）的即時診斷
 
-![](https://i.imgur.com/zdkdnOV.png)
+![](https://i.imgur.com/48isCbe.png)
 > 能夠一眼識別出例外行為
