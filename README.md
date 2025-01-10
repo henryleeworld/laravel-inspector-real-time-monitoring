@@ -1,4 +1,4 @@
-# Laravel 10 Inspector 即時監測
+# Laravel 11 Inspector 即時監測
 
 引入 inspector-apm 的 inspector-laravel 套件來擴增實作在應用程式中新增即時監測和警報。
 
@@ -29,5 +29,5 @@ $ php artisan inspector:test
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/f65ki30.png)
+![](https://i.imgur.com/1GfUfFn.png)
 > 自動建立對應用程式處理（HTTP 和後台）的即時診斷
