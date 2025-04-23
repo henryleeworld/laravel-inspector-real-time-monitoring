@@ -1,4 +1,4 @@
-# Laravel 11 Inspector 即時監測
+# Laravel 12 Inspector 即時監測
 
 引入 inspector-apm 的 inspector-laravel 套件來擴增實作在應用程式中新增即時監測和警報。
 
@@ -20,6 +20,10 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 執行 __Artisan__ 指令的 __inspector__ 的測試以檢查 Inspector 是否在系統中正常。
 ```sh
 $ php artisan inspector:test
@@ -29,5 +33,5 @@ $ php artisan inspector:test
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/1GfUfFn.png)
+![](https://i.imgur.com/qyYnqzT.png)
 > 自動建立對應用程式處理（HTTP 和後台）的即時診斷

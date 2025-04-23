@@ -12,9 +12,8 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
-        $middleware->web(append: [
-            WebRequestMonitoring::class,
-        ]);
+        $middleware->appendToGroup('web', WebRequestMonitoring::class)
+            ->appendToGroup('api', WebRequestMonitoring::class);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //
