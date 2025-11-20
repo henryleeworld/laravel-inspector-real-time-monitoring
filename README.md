@@ -20,10 +20,6 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate
 ```
-- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
-```sh
-$ php artisan migrate
-```
 - 執行 __Artisan__ 指令的 __inspector__ 的測試以檢查 Inspector 是否在系統中正常。
 ```sh
 $ php artisan inspector:test
